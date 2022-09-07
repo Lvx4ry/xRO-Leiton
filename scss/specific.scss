@@ -1,0 +1,62 @@
+/* Index Login */
+.loginFrame {
+  background-color: $darkBlue;
+  height: 33rem;
+  width: 25rem;
+  padding: 1rem;
+}
+.loginInputPadding {
+  padding: 1rem;
+}
+
+/* BUTTONS */
+
+.bigButton {
+  background-color: $btnBg;
+  width: 11rem;
+  height: 4.5rem;
+  border: solid;
+  color: $whiteColor;
+  font-size: 2rem;
+}
+
+.smallerButton {
+  width: 8rem;
+  height: 3rem;
+  font-size: 1.2rem;
+}
+
+/* Contact */
+
+input,
+select,
+textarea {
+  margin: 1.2rem;
+}
+
+/* Border */
+
+.solidBlueBorder {
+  border: $darkBlue solid 0.5rem;
+}
+
+/* Donwloads Frame */
+
+.autoFrame {
+  width: 25rem;
+  height: auto;
+  text-align: center;
+  border: $darkBlue solid 0.5rem;
+}
+
+.blackBgColor {
+  background-color: rgba(0, 0, 0, 0.822);
+}
+
+/* LeaderBoards */
+
+table {
+  border: solid 0.2rem black;
+  font-size: 1.5rem;
+  border-spacing: 0;
+}

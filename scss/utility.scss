@@ -1,0 +1,101 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+}
+
+/* TEXT */
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.noTextDecoration {
+  text-decoration: none;
+}
+
+.textAlignCenter {
+  text-align: center;
+}
+
+.textAlignLeft {
+  text-align: left;
+}
+
+/* DISPLAYS  */
+
+.displayInLine {
+  display: inline;
+}
+
+.displayBlock {
+  display: block;
+}
+
+.displayFlex {
+  display: flex;
+}
+
+/* SPACING */
+
+.imgMargin {
+  margin: 2.5rem;
+}
+
+.sideMargin2rem {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.verticalMargin {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.bottomPadding {
+  padding-bottom: 1rem;
+}
+
+/* FLEX  */
+
+.evenlyFlex {
+  justify-content: space-evenly;
+}
+
+.flexWrap {
+  flex-wrap: wrap;
+}
+
+.flexAlignCenter {
+  align-items: center;
+}
+
+.flexColumn {
+  flex-direction: column;
+}
+
+/* SIZING  */
+
+.fullWidth {
+  width: 100%;
+}
+
+.imgSize {
+  height: 30rem;
+  width: 40rem;
+}
+
+.abtUsImg {
+  width: 20%;
+}
+
+.contentImgSize {
+  width: 25%;
+}
+
+.iframeSize {
+  width: 100%;
+  height: 500px;
+}

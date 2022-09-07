@@ -1,0 +1,52 @@
+/* GRID INDEX */
+.indexGrid {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto auto auto auto auto;
+  grid-template-areas:
+    "header"
+    "playerLogin"
+    "serverFeatures"
+    "news"
+    "footer";
+}
+header {
+  grid-area: header;
+}
+.playerLogin {
+  grid-area: playerLogin;
+}
+.serverFeatures {
+  grid-area: serverFeatures;
+}
+.news {
+  grid-area: news;
+}
+footer {
+  grid-area: footer;
+}
+
+/* GRID ABOUT US */
+.aboutUsGrid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+    "abtUsTxt abtUsVideo"
+    "abtUsImgContainer abtUsImgContainer"
+    "serverInfo serverInfo";
+}
+
+.abtUsTxt {
+  grid-area: abtUsTxt;
+  align-self: center;
+}
+.abtUsVideo {
+  grid-area: abtUsVideo;
+}
+.abtUsImgContainer {
+  grid-area: abtUsImgContainer;
+}
+.serverInfo {
+  grid-area: serverInfo;
+}

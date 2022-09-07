@@ -1,0 +1,36 @@
+$whiteColor: #f3f9fb;
+$darkBlue: #113f67;
+$lightBlue: #87c0cd;
+$btnBg: #226597;
+
+.inputTextColor {
+  color: black;
+}
+
+.lightBlueText {
+  color: $lightBlue;
+}
+
+.blackText {
+  color: black;
+}
+
+.lbBgColor {
+  background-color: $lightBlue;
+}
+
+.mainBgColor {
+  background-color: $whiteColor;
+}
+
+.whiteTextColor {
+  color: $whiteColor;
+}
+
+.headerBgColor {
+  background-color: $darkBlue;
+}
+
+.inputBgColor {
+  background-color: $lightBlue;
+}
