@@ -99,3 +99,21 @@ html {
   width: 100%;
   height: 500px;
 }
+
+.tableSize {
+  width: 80%;
+}
+
+.autoWidth {
+  width: auto !important;
+}
+
+/* BORDERS */
+
+.bottomBorder {
+  border-bottom: 1px solid map-get($colors, darkBlueColor);
+}
+
+.borderRadius {
+  border-radius: 10px;
+}

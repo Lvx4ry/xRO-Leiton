@@ -1,6 +1,6 @@
 /* Index Login */
 .loginFrame {
-  background-color: $darkBlue;
+  background-color: map-get($colors, darkBlueColor);
   height: 33rem;
   width: 25rem;
   padding: 1rem;
@@ -11,16 +11,17 @@
 
 /* BUTTONS */
 
-.bigButton {
-  background-color: $btnBg;
+.button {
+  background-color: map-get($colors, btnBg);
   width: 11rem;
   height: 4.5rem;
   border: solid;
-  color: $whiteColor;
+  color: map-get($colors, whiteColor);
   font-size: 2rem;
 }
 
 .smallerButton {
+  @extend.button;
   width: 8rem;
   height: 3rem;
   font-size: 1.2rem;
@@ -37,16 +38,17 @@ textarea {
 /* Border */
 
 .solidBlueBorder {
-  border: $darkBlue solid 0.5rem;
+  border: map-get($colors, darkBlueColor) solid 0.5rem;
+  border-radius: 10px;
 }
 
 /* Donwloads Frame */
 
 .autoFrame {
-  width: 25rem;
   height: auto;
   text-align: center;
-  border: $darkBlue solid 0.5rem;
+  border: map-get($colors, darkBlueColor) solid 0.5rem;
+  border-radius: 10px;
 }
 
 .blackBgColor {
@@ -56,7 +58,23 @@ textarea {
 /* LeaderBoards */
 
 table {
-  border: solid 0.2rem black;
+  border: solid 0.2rem map-get($colors, blackColor);
+  border-radius: 2px;
   font-size: 1.5rem;
   border-spacing: 0;
+}
+
+th,
+tr,
+td {
+  padding: 1rem;
+}
+
+/* FORMS BORDER */
+
+form,
+input,
+select,
+textarea {
+  border-radius: 5px;
 }

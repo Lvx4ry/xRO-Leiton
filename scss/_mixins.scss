@@ -1,0 +1,9 @@
+@mixin nav-li-item {
+  display: inline;
+  margin: 0 2rem;
+  list-style-type: none;
+}
+
+li {
+  @include nav-li-item;
+}
