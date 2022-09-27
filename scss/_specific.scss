@@ -42,6 +42,23 @@ textarea {
   border-radius: 10px;
 }
 
+.bottomRadius {
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.topBorderWhite {
+  border-top: map-get($colors, whiteColor) solid 2px;
+}
+
+/* INDEX CARDS */
+
+.contentCard {
+  border: map-get($colors, lightBlueColor) solid 0.5rem;
+  background-color: map-get($colors, whiteColor);
+  border-radius: 10px;
+}
+
 /* Donwloads Frame */
 
 .autoFrame {
@@ -55,7 +72,7 @@ textarea {
   background-color: rgba(0, 0, 0, 0.822);
 }
 
-/* LeaderBoards */
+/* TABLES */
 
 table {
   border: solid 0.2rem map-get($colors, blackColor);
@@ -70,6 +87,11 @@ td {
   padding: 1rem;
 }
 
+th,
+td {
+  border: 1px solid;
+}
+
 /* FORMS BORDER */
 
 form,
@@ -77,4 +99,11 @@ input,
 select,
 textarea {
   border-radius: 5px;
+}
+
+/* FILLER IMAGE */
+
+.fillerImg {
+  height: 640px;
+  width: auto;
 }

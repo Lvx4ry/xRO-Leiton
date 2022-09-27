@@ -26,6 +26,20 @@ h1,
 h2,
 h3,
 h4,
-strong {
+h5 strong {
   text-align: center;
+}
+
+h5 {
+  font-size: 2rem;
+
+  padding: 1rem;
+}
+
+/* FIX FOOTER AL FONDO */
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }

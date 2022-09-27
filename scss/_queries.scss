@@ -8,10 +8,13 @@
     width: 80%;
     padding: 1rem;
   }
-  div.serverFeatures div .contentImgSize,
+
   .abtUsImg {
-    width: 40%;
+    width: 80%;
     margin: 0.5rem;
+  }
+  div.serverFeatures div .contentImgSize {
+    width: 80%;
   }
   div.serverFeatures div,
   main div {
@@ -31,6 +34,17 @@
     margin: 0.5rem;
   }
 
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer div p {
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
   .sideMargin2rem {
     margin-left: 1.5rem;
   }
@@ -58,5 +72,16 @@
   .iframeSize {
     width: 80%;
     height: 30rem;
+  }
+  /* ABT US TABLE */
+
+  .infoTable {
+    margin: auto 2rem;
+  }
+
+  /* IMG DISPLAY NONE */
+
+  .fillerImg {
+    display: none;
   }
 }

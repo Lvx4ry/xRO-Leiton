@@ -55,13 +55,21 @@ html {
 }
 
 .bottomPadding {
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
+}
+
+.sidePadding {
+  padding: auto 2rem;
 }
 
 /* FLEX  */
 
 .evenlyFlex {
   justify-content: space-evenly;
+}
+
+.spaceAround {
+  justify-content: space-around;
 }
 
 .flexWrap {
@@ -72,11 +80,27 @@ html {
   align-items: center;
 }
 
+.flexAlignStart {
+  align-items: flex-start;
+}
+
 .flexColumn {
   flex-direction: column;
 }
 
+.selfStart {
+  align-self: flex-start;
+}
+
 /* SIZING  */
+
+.textSize {
+  width: 70%;
+}
+
+.fillerImg {
+  width: 25%;
+}
 
 .fullWidth {
   width: 100%;
@@ -116,4 +140,10 @@ html {
 
 .borderRadius {
   border-radius: 10px;
+}
+
+/* OVERFLOW */
+
+.overflow-x {
+  overflow-x: auto;
 }
